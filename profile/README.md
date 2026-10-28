@@ -1,6 +1,6 @@
-# Nanocode
-
-<img src="./logo.svg" alt="Nanocode logo" align="right" width="120" />
+<p align="center">
+  <img src="./logo.png" alt="nanocode" width="480" />
+</p>
 
 Welcome to the Nanocode organization.
 
