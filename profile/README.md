@@ -29,6 +29,21 @@ Try the live demos:
 - [nanocode.xyz/vercel](https://nanocode.xyz/vercel): durable agents on Vercel Workflows, with [ChatGPT-style](https://nanocode.xyz/vercel/chatgpt) and [Claude-style](https://nanocode.xyz/vercel/claude) clones ([source](https://github.com/nanocodexyz/durable-vercel))
 - [nanocode.xyz/machines](https://nanocode.xyz/machines): an agent in your browser that pays for every token from your Tempo Wallet ([source](https://github.com/gakonst/nanocode-machines-web))
 
+## Principles
+
+Every repository here follows the same principles, from [nanocode's AGENTS.md](https://github.com/nanocodexyz/nanocode/blob/master/AGENTS.md):
+
+- Keep code simple and changes small, matching the code around them.
+- No code comments, doc comments, tests or test-only dependencies.
+- No magic constants or arbitrary caps: a limit comes from a protocol, a measurement or caller policy. Invalid states surface; nothing hides them with silent truncation, clamping or fallbacks.
+- Invalid states are unrepresentable: a lifecycle is one enum whose variants carry only what that phase has.
+- Lock-free: no Mutex, RwLock or Condvar, and blocking I/O never runs on async workers.
+- One workspace of reusable crates that build for native and WASM with parity.
+- The real Claude and Codex prompts and tool shapes, version-pinned from upstream, with SDK additions kept apart.
+- Inference, subagents and durability live in the brain; Code Mode runs on the user's machine. Dispatched work is never silently replayed: an uncertain outcome is reported as unknown.
+- Every performance change comes with reproducible before/after measurements.
+- Everything lands on master and is built, released and deployed by hand: no pull requests, no CI.
+
 See the [Nanocode Docs](https://nanocode.xyz) for more.
 
 Nanocode development is spearheaded by [Paradigm](https://github.com/paradigmxyz) and the open-source community.
