@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.png" alt="nanocode" width="480" />
+  <img src="./logo.png" alt="nanocode" width="100%" />
 </p>
 
 Welcome to the Nanocode organization.
