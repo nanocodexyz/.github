@@ -16,6 +16,10 @@ curl -L https://nanocodex.paradigm.xyz | bash
 
 Then, in a new terminal run: `nc`.
 
+<p align="center">
+  <img src="./nc.gif" alt="nc in a terminal: a question about the nanocode workspace, one Code Mode cell that lists and reads it, and the answer after 10.5 seconds" width="100%" />
+</p>
+
 That's it! If everything goes well, you will now have a coding agent in your terminal, and the same
 agent is ready to embed in your own app:
 
