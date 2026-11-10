@@ -21,7 +21,8 @@ Try the live demos:
 
 - [nanocode.xyz/cloudflare](https://nanocode.xyz/cloudflare): durable agents in Cloudflare Durable Objects ([source](https://github.com/nanocodexyz/durable-cloudflare))
 - [nanocode.xyz/vercel](https://nanocode.xyz/vercel): durable agents on Vercel Workflows, with [ChatGPT-style](https://nanocode.xyz/vercel/chatgpt) and [Claude-style](https://nanocode.xyz/vercel/claude) clones ([source](https://github.com/nanocodexyz/durable-vercel))
-- [nanocode.xyz/machines](https://nanocode.xyz/machines): an agent in your browser that pays for every token from your Tempo Wallet ([source](https://github.com/gakonst/nanocode-machines-web))
+
+Check the [Nanocode Experiments](https://nanocode.xyz/experiments).
 
 See the [Nanocode Docs](https://nanocode.xyz) for more.
 
