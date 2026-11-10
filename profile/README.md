@@ -26,6 +26,7 @@ agent is ready to embed in your own app:
 - [nanocode](https://github.com/nanocodexyz/nanocode): the Rust SDK and the `nc` CLI
 - [nanocode-ts](https://github.com/nanocodexyz/nanocode-ts): the SDK as one WebAssembly module, for Workers, Vercel, Node and browsers
 - [nanocode-swift](https://github.com/nanocodexyz/nanocode-swift): the SDK for macOS and iOS, with AppKit and UIKit views
+- [libnanocode](https://github.com/nanocodexyz/libnanocode): the SDK as a C library, polled from a game thread
 
 Try the live demos:
 
